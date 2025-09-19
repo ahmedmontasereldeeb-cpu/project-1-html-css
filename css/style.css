@@ -1,0 +1,964 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    height: 6000px;
+}
+
+.main-header {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(101, 101, 101, 0.7);
+    position: fixed;
+    z-index: 999;
+}
+
+.main-header .mainli, .main-header .blog, .section-1 .content button, .section-2 .s2-header h2, .section-2 .parent .item h3, .section-2 .parent .item h3, .section-2 .parent .item:hover a.section-3 .s3-header h2, .section-3 .item .overlay h3, .section-4 .s4-header h2, .section-5 .left-container .s5-header h2, .section-7 .s7-header h2, .section-7 .item .ps p, .section-7 .item button, .section-8 .item h3, .section-8 .item .job, .section-8 .item .des, .section-9 .s9-header h2, .section-9 .item h3, .section-10 .s10-header h2, .section-10 h3 {
+    text-transform: capitalize;
+}
+
+.main-header .mainli, .main-header .blog, .main-header .blog .drop-down li, .section-2, .section-2 .parent .item, .section-3, .section-3 .item .overlay, .section-4, .section-4 .top-parent .item, .section-4 .bottom-parent .item, .section-5, .section-5 .left-container .s5-header h2, .section-6, .section-7, .section-10 .image, .section-10 .item, .section-10, .section-9 .image, .section-9 .item, .section-9, .section-8 .item, .section-8, .section-7 .container .item {
+    position: relative;
+}
+
+.main-header .mainli::after, .main-header .mainli:hover::after, .main-header .blog::after, .main-header .blog:hover::after, .main-header .blog .drop-down, .main-header .drop-down li::after, .main-header .drop-down li:hover::after, .section-1 .overlay, .section-1 .content, .section-2 .s2-header, .section-2 .container, .section-2 .parent .item::after, .section-3 .s3-header, .section-3 .container, .section-3 .item .overlay h3, .section-3 .item .overlay p, .section-3 .item .overlay .icons, .section-4 .s4-header, .section-4 .container, .section-4 .container .item::after, .section-4 .container .item:hover::after, .section-4 .top-parent .item i, .section-4 .top-parent .item h3, .section-4 .top-parent .item p, .section-4 .bottom-parent .item i, .section-4 .bottom-parent .item h3, .section-4 .bottom-parent .item p, .section-5 .left-container, .section-5 .s5-header h2 span::after, .section-5 .right-container, .section-5 .dots, .section-10 .item::after, .section-10 .s10-container, .section-10 .s10-header, .section-9 .item .icons-parent, .section-9 .item::after, .section-9 .s9-container, .section-9 .s9-header, .section-8 .item h3, .section-8 .item .job, .section-8 .s8-content, .section-7 .container .item:hover::after, .section-7 .container .item::after, .section-7 .container, .section-7 .s7-header, .section-6 .s6-overlay, .section-6 .s6-content, .section-9 .item h3, .section-9 .item p {
+    position: absolute;
+}
+
+.section-1, .section-3 .top-parent .item-1, .section-3 .top-parent .item-2, .section-3 .top-parent .item-3, .section-3 .bottom-parent .item-4, .section-3 .bottom-parent .item-5, .section-3 .bottom-parent .item-6, .section-5 .right-image, .section-6, .section-8 {
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header .mainli a, .main-header .home-icon, .main-header .blog-a, .section-1 .content, .section-1 .btn-2, .section-2 .parent .item:hover h3, .section-11 i, .section-10 .item:hover h3, .section-9 .item i, .section-9 .item a, .section-8 .item .des, .section-8 .item h3, .section-6 .item, .section-4 .container .item:hover h3, .section-3 .bottom-parent .item, .section-3 .item .overlay, .section-3 .top-parent .item, .section-9 .item:hover h3 {
+    color: white;
+}
+
+.section-10 .item:hover .icons span, .section-10 .item:hover .icons, .section-4 .container .item:hover i {
+    color: black;
+}
+
+.main-header .home-icon, .main-header .search, .main-header .mainli, .main-header .blog, .section-2 .parent .item, .section-3 .top-parent .item, .section-3 .bottom-parent .item, .section-4 .top-parent .item, .section-4 .bottom-parent .item, .section-5 .dot, .section-6 .item, .section-7 .container .item, .section-8 .item-2, .section-8 .item, .section-8 .item h3, .section-9 .item {
+    float: left;
+}
+
+.main-header .mainli a, .main-header .blog-a, .main-header .blog-a,.section-2 .parent .item a, .section-2 .parent .item:hover a, .section-9 .item a, .section-10 .item:hover .more a, .section-10 .more a, .main-header .drop-down li a {
+    text-decoration: none;
+}
+
+.main-header .drop-down li a, .main-header .drop-down li, .section-1 .content, .section-2 .s2-header, .section-2 .parent .item, .section-3 .s3-header, .section-3 .item .overlay, .section-3 .item .overlay h3, .section-3 .item .overlay p, .section-3 .item .overlay .icons, .section-4 .s4-header, .section-6 .item, .section-7 .s7-header, .section-7 .container .item, .section-7 .item .price, .section-9 .s9-header, .section-9 .item i, .section-9 .item h3, .section-9 .item p, .section-10 .s10-header, .section-10 .item, .section-11 {
+    text-align: center;
+}
+
+.section-2 .s2-header .h2-line, .section-2 .container, .section-3 .s3-header .h2-line, .section-3 .container, .section-4 .s4-header .h2-line, .section-7 .s7-header .h2-line, .section-7 .item .price, .section-9 .s9-header .h2-line, .section-9 .image, .section-10 .s10-header .h2-line, .section-10 .image {
+    margin: auto;
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-7, .section-9 {
+    width: 100%;
+    height: 100vh;
+}
+
+.section-2, .section-4, .section-5, .section-7, .section-9, .section-10, .main-header .blog .drop-down, .section-9 .item i {
+    background-color: rgb(247, 247, 247);
+}
+
+.section-2 .s2-header h2, .section-3 .s3-header h2, .section-4 .s4-header h2, .section-5 .s5-header h2, .section-7 .s7-header h2, .section-9 .s9-header h2, .section-10 .s10-header h2 {
+    font-size: 40px;
+}
+
+.section-2 .s2-header .h2-line, .section-4 .s4-header .h2-line, .section-7 .s7-header .h2-line, .section-9 .s9-header .h2-line, .section-10 .s10-header .h2-line {
+    width: 100px;
+    height: 4px;
+    background-color: rgb(101, 101, 101);
+    margin-top: 3px;
+}
+
+.section-1 p, .section-1 .content button:hover, .section-2 .parent .item p, .section-3 .item .overlay h3, .section-10 p, .section-11 i, .section-11 p  {
+    opacity: .7;
+}
+
+.section-2 .parent .item:hover p, .section-4 .container .item:hover p, .section-4 .container .item:hover p, .section-10 .item:hover p, .section-11 i:hover {
+    opacity: 1;
+}
+
+.section-6, .section-8 {
+    width: 100%;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.main-header .home-icon {
+    font-size: 25px;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+.main-header .search {
+    margin: 10px 0 0 25px;
+}
+
+.main-header .search input {
+    width: 240px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+.main-header .search .search-icon {
+    margin-left: -225px;
+    font-size: 15px;
+}
+
+.main-header .mainul {
+    list-style-type: none;
+    margin-left: 615px;
+}
+
+.main-header .mainli, .main-header .blog {
+    margin: 15px 0 0 25px;
+    line-height: 20px;
+}
+
+.main-header .mainli::after, .main-header .blog::after {
+    content: "";
+    background-color: rgb(214, 214, 214);
+    width: 0;
+    height: 2px;
+    top: 23px;
+    left: 0;
+}
+
+.main-header .mainli:hover::after, .main-header .blog:hover::after  {
+    width: 100%;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.main-header .blog .drop-down {
+    top: 28px;
+    right: -110px;
+    width: 145px;
+    height: 165px;
+    border: 1px solid rgb(123, 123, 123);
+    border-radius: 10px;
+    list-style-type: none;
+    visibility: hidden;
+}
+.main-header .blog:hover .drop-down{
+    visibility: visible;
+}
+
+.main-header .drop-down li {
+    margin-top: 26px;
+    font-size: 17px;
+}
+.main-header .drop-down li a {
+    margin-top: 25px;
+    color: rgb(72, 72, 72);
+}
+
+.main-header .drop-down li::after {
+    content: "";
+    background-color: rgb(72, 72, 72);
+    width: 0;
+    height: 2px;
+    top: 23px;
+    left: 20px;
+}
+
+.main-header .drop-down li:hover::after {
+    content: "";
+    width: 70%;
+    height: 2px;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.section-1 {
+    background-image: url(../images/chess.jpg);
+}
+
+.section-1 .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section-1 .content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+.section-1 h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.section-1 p {
+    margin: 15px 0 20px 0;
+}
+
+.section-1 .content button {
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.section-1 .btn-2 {
+    background-color: rgb(101, 101, 101);
+}
+
+.section-2 .s2-header {
+    width: 100%;
+    top: 65px;
+}
+
+.section-2 .container {
+    width: 85%;
+    height: 225px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-2 .parent .item {
+    width: 30%;
+    height: 225px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.section-2 .parent .item::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-radius: 10px;
+    background-color: rgb(101, 101, 101);
+    opacity: 0;
+    z-index: -1;
+}
+
+.section-2 .parent .item:hover::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: .5;
+    transition: .5s;
+}
+
+.section-2 .parent .item-2 {
+    margin: 0 5%;
+}
+
+.section-2 .parent .item i {
+    font-size: 40px;
+    color: rgb(101, 101, 101);
+}
+
+.section-2 .parent .item:hover i {
+    color: rgb(49, 49, 49);
+}
+
+.section-2 .parent .item:hover a {
+    color: white;
+}
+
+.section-2 .parent .item h3 {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.section-2 .parent .item p {
+    margin: 15px 0;
+}
+
+.section-2 .parent .item a {
+    color: rgb(60, 60, 60);
+}
+
+.section-3 {
+    background-color: rgb(215, 215, 215);
+}
+
+.section-3 .s3-header {
+    width: 100%;
+    top: 45px;
+}
+
+.section-3 .s3-header .h2-line {
+    width: 100px;
+    height: 4px;
+    background-color: rgb(101, 101, 101);
+    margin-top: 3px;
+}
+
+.section-3 .container {
+    width: 75%;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-3 .top-parent{
+    width: 100%;
+}
+
+.section-3 .top-parent .item {
+    width: 32%;
+    height: 190px;
+}
+.section-3 .container .item {
+    border-radius: 15px;
+}
+
+.section-3 .top-parent .item-1 {
+    background-image: url(../images/تصميم\ بدون\ عنوان\ \(20\).png);
+}
+
+.section-3 .item .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+.section-3 .item:hover .overlay{
+    visibility: visible;
+}
+
+.section-3 .item .overlay h3 {
+    font-size: 30px;
+    top: 25px;
+    width: 100%;
+}
+.section-3 .item .overlay p {
+    top: 80px;
+    width: 100%;
+}
+.section-3 .item .overlay .icons {
+    top: 130px;
+    width: 100%;
+}
+.section-3 .item .overlay i {
+    color: gray;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.section-3 .top-parent .item-2 {
+    margin: 0 2%;
+    background-image: url(../images/Black_and_White_Chessboard.jpg);
+}
+
+.section-3 .top-parent .item-3 {
+    background-image: url(../images/tournment.jpg);
+}
+
+.section-3 .bottom-parent {
+    width: 100%;
+    margin-top: 210px;
+}
+
+.section-3 .bottom-parent .item {
+    width: 32%;
+    height: 190px;
+}
+
+.section-3 .bottom-parent .item-4 {
+    background-image: url(../images/download\ \(1\).jpg);
+}
+
+.section-3 .bottom-parent .item-5 {
+    margin: 0 2%;
+    background-image: url(../images/eb8df916-f007-46b0-b55f-af876f1cb813.jpg);
+}
+
+.section-3 .bottom-parent .item-6 {
+    background-image: url(../images/Youth\ Chess\ Tournaments\,\ WPP\ Award-winning\ photographer\ 2017\,\ with\ the\ Fuji\ X100\ -\ Fuji\ X\ Passion.jpg);
+}
+
+.section-4 .s4-header {
+    width: 100%;
+    top: 55px;
+}
+
+.section-4 .container {
+    width: 80%;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-4 .top-parent {
+    height: 200px;
+}
+
+.section-4 .top-parent .item, .section-4 .bottom-parent .item {
+    width: 31%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.section-4 .container .item::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+    opacity: 0;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.section-4 .container .item:hover::after {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.section-4 .top-parent .item i, .section-4 .bottom-parent .item i {
+    font-size: 30px;
+    color: rgb(101, 101, 101);
+    top: 30px;
+}
+
+.section-4 .top-parent .item h3, .section-4 .bottom-parent .item h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    left: 55px;
+    top: 25px;
+}
+
+.section-4 .top-parent .item p, .section-4 .bottom-parent .item p {
+    left: 55px;
+    top: 105px;
+    opacity: .6;
+}
+
+.section-4 .top-parent .item-2, .section-4 .bottom-parent .item-5 {
+    margin: 0 3.5%;
+}
+
+.section-4 .bottom-parent {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.section-5 .left-container {
+    width: 45%;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.section-5 .s5-header h2 span::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: black;
+    background-color: rgb(101, 101, 101);
+    top: 55px;
+    left: 3px;
+}
+
+.section-5 .left-container p {
+    opacity: .5;
+    margin: 45px 0 40px 0;
+}
+
+.section-5 .s5-ul li {
+    margin-bottom: 30px;
+    list-style-type: none;
+    opacity: .7;
+    margin-left: 20px;
+    margin-top: -21px;
+}
+
+.section-5 .s5-ul i {
+    font-size: 15px;
+    color: rgb(101, 101, 101);
+}
+
+.section-5 .right-container {
+    width: 26%;
+    height: 475px;
+    top: 48%;
+    right: 23%;
+    transform: translate(50%, -50%);
+}
+
+.section-5 .right-image {
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/TELL\ YOUR\ MATE\,\ LUMINA\ CHESS\ MONOCHROME\ VERSION….jpg);
+}
+
+.section-5 .dots {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.section-5 .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(159, 159, 159);
+}
+
+.section-5 .dot-1, .section-5 .dot-2:hover, .section-5 .dot-3:hover {
+    background-color: rgb(79, 79, 79);
+}
+
+.section-5 .dot-2 {
+    margin: 0 15px;
+}
+
+.section-6 {
+    background-image: url(../images/Chess\ game\ -\ Scacchi.jpg);
+}
+
+.section-6 .s6-overlay {
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section-6 .s6-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.section-6 .item {
+    width: 20%;
+}
+
+.section-6 .item-2 {
+    margin: 0 calc(20% / 3);
+}
+
+.section-6 .item-4 {
+    margin-left: calc(20% / 3);
+}
+
+.section-6 .item i {
+    font-size: 40px;
+    color: rgb(205, 205, 205);
+    margin-bottom: 15px;
+}
+
+.section-7 .s7-header {
+    width: 100%;
+    top: 55px;
+}
+
+.section-7 .container {
+    width: 70%;
+    height: 380px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-7 .container .item {
+    width: 30%;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.section-7 .container .item::after {
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .5;
+    width: 100%;
+    height: 0;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+}
+.section-7 .container .item:hover::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.section-7 .container .item-2 {
+    margin: 0 5%;
+}
+
+.section-7 .item h3 {
+    margin: 35px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.section-7 .item:hover h3, .section-9 .item:hover p {
+    color: rgb(235, 235, 235);
+}
+
+.section-7 .item .price {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 50%;
+    padding: 16px;
+    padding-top: 19px;
+}
+
+.section-7 .item:hover .price {
+    border: 1px solid rgb(32, 32, 32);
+}
+
+.section-7 .item .price span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section-7 .item .ps {
+    margin: 25px 0 20px 0;
+}
+.section-7 .item .ps p {
+    margin-top: 15px;
+}
+.section-7 .item button {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.section-8 {
+    background-image: url(../images/osama-madlom-cShsbxi72CM-unsplash.jpg);
+}
+
+.section-8 .s8-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section-8 .s8-content {
+    width: 65%;
+    height: 200px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-8 .item {
+    width: 45%;
+}
+
+.section-8 .item-2 {
+    width: 45%;
+    margin-left: 10%;
+}
+
+.section-8 .item .image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../images/old-man.jpg);
+    background-size: cover;
+}
+
+.section-8 .item-2 .image {
+    background-image: url(../images/Stand\ out\ with\ job\ interview\ outfits!\ Choose\ from….jpg);
+    background-size: cover;
+}
+
+.section-8 .item h3 {
+    font-size: 30px;
+    top: 15px;
+    left: 110px;
+}
+
+.section-8 .item .job {
+    font-size: 22px;
+    color: rgb(203, 203, 203);
+    top: 55px;
+    left: 110px;
+}
+
+.section-8 .item .des {
+    margin-top: 20px;
+}
+
+.section-9 .s9-header {
+    width: 100%;
+    top: 70px;
+}
+
+.section-9 .s9-container {
+    width: 80%;
+    height: 320px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-9 .item {
+    width: 30%;
+    height: 310px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 10px;
+}
+
+.section-9 .item::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.section-9 .item:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.section-9 .item-2 {
+    margin: 0 5%;
+}
+
+.section-9 .image {
+    width: 75%;
+    height: 65%;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.section-9 .img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+}
+
+.section-9 .item-1 .img  {
+    background-image: url(../images/تصميم\ بدون\ عنوان\ \(27\).png);
+}
+
+.section-9 .item-2 .img {
+    background-image: url(../images/man-middle.jpg);
+}
+
+.section-9 .item-3 .img {
+    background-image: url(../images/تصميم\ بدون\ عنوان\ \(22\).png);
+}
+
+.section-9 .item .icons-parent {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: block;
+    visibility: hidden;
+}
+
+.section-9 .item:hover .icons-parent {
+    visibility: visible;
+    z-index: 1;
+}
+
+.section-9 .item a {
+    color: rgb(59, 59, 59);
+}
+
+.section-9 .item i {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    color: black;
+    margin-left: auto;
+}
+
+.section-9 .item h3 {
+    font-size: 25px;
+    margin: 13px 0 5px 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.section-9 .item p {
+    font-size: 17px;
+    color: rgb(55, 55, 55);
+    margin-top: 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+.section-10 {
+    width: 100%;
+    height: 125vh;
+}
+
+.section-10 .s10-header {
+    width: 100%;
+    top: 15px;
+}
+
+.section-10 .s10-container {
+    width: 80%;
+    height: 500px;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section-10 .item {
+    width: 30%;
+    height: 500px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.section-10 .item::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.section-10 .item:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.section-10 .item-2 {
+    margin: 0 5%;
+}
+
+.section-10 .image {
+    width: 90%;
+    height: 50%;
+    margin-top: 5px;
+    background-size: cover;
+}
+
+.section-10 .img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+}
+
+.section-10 .item-1 .img  {
+    background-image: url(../images/تصميم\ بدون\ عنوان\ \(29\).png);
+}
+
+.section-10 .item-2 .img {
+    background-image: url(../images/MOOD\ BOARD.jpg);
+}
+
+.section-10 .item-3 .img {
+    background-image: url(../images/تصميم\ بدون\ عنوان\ \(28\).png);
+}
+
+.section-10 .icons, .section-10 p {
+    margin: 20px 0 15px 0;
+}
+
+.section-10 .icons span, .section-10 .icons {
+    color: gray;
+}
+
+.section-10 .icons a {
+    color: rgb(50, 50, 50);
+}
+
+.section-10 .item:hover .icons span, .section-10 .icons a, .section-10 .icons span {
+    margin-right: 3px;
+}
+
+.section-10 .i-2, .i-3 {
+    margin-left: 15px;
+}
+
+.section-10 .more a {
+    color: rgb(104, 104, 104);
+}
+
+.section-10 .item:hover .more a {
+    color: rgb(255, 255, 255);
+}
+
+.section-11 {
+    width: 100%;
+    height: 58vh;
+    background-color: rgb(215, 215, 215);
+    padding: 20px;
+}
+
+.section-11 img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.section-11 .icons {
+    margin: 15px 0 10px 0;
+}
+
+.section-11 i {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.section-11 i:hover {
+    background-color: rgb(81, 81, 81);
+    transition: .5s;
+}
